@@ -1,0 +1,50 @@
+.log-list {
+  display: flex;
+  flex-direction: column;
+  padding: 40rpx;
+}
+.log-item {
+  margin: 10rpx;
+}
+.box{
+  width: 750rpx;
+  height: 70rpx;
+  color: red;
+  align-items: center;
+  display: flex;
+  font-size: 25rpx;
+  justify-content: space-around
+}
+.box text{
+  border: 1rpx solid #ccc;
+  padding: 10rpx;
+}
+.content{
+  width: 750rpx;
+  margin-top: 50rpx;
+}
+.content view{
+  width: 750rpx;
+  height: 80rpx;
+  border: 1rpx solid red;
+  line-height: 80rpx;
+  text-align: center;
+}
+.fexd-list{
+  width: 600rpx;
+  height: 350rpx;
+  border: 1rpx solid #ccc;
+  position: absolute;
+  left: 75rpx;
+  top: 500rpx;
+  background: #ffff;
+}
+.fexd-list view{
+  width: 600rpx;
+  height: 117rpx;
+  border-bottom: 1rpx solid #ccc;
+  line-height: 120rpx;
+  background: rgba(0, 247, 255, 0.76);
+  color: #fff;
+  font-weight: bold;
+}

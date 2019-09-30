@@ -1,0 +1,21 @@
+<!--logs.wxml-->
+
+ <view>
+ <image class="logs-img" src="../../img/log.jpeg"></image>
+ </view>
+ <view class="box">
+  <text>我是首页</text>
+  <text>我的简历</text>
+  <text>我的信息</text>
+ </view>
+ <view class="content">
+  <view>我是list</view>
+  <view>我是list1</view>
+  <view>我是list2</view>
+  <view>我是list3</view>
+ </view>
+ <view class="fexd-list">
+  <view>我的电话:18945414144</view>
+  <view>我的简历:点击进入查看我的简历</view>
+  <view>我的邮箱:66853233@qq.com</view>
+ </view>

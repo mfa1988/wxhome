@@ -1,0 +1,31 @@
+{
+  "pages": [
+    "pages/logs/logs",
+    "pages/users/users",
+    "pages/index/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+ "tabBar": {
+   "backgroundColor": "red",
+   "list": [
+     {
+     "pagePath": "pages/index/index",
+     "text": "首页"
+   },
+     {
+     "pagePath": "pages/logs/logs",
+     "text": "简历"
+   },
+     {
+     "pagePath": "pages/users/users",
+     "text": "我的"
+   }
+   ]
+ }
+}
