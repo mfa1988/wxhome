@@ -1,8 +1,8 @@
 {
   "pages": [
     "pages/logs/logs",
-    "pages/users/users",
-    "pages/index/index"
+    "pages/index/index",
+    "pages/users/users"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -15,16 +15,22 @@
    "backgroundColor": "red",
    "list": [
      {
-     "pagePath": "pages/index/index",
-     "text": "首页"
+      "pagePath": "pages/logs/logs",
+      "text": "首页",
+        "iconPath": "/img/logs.png",
+        "selectedIconPath": "/img/logs1.png"
    },
      {
-     "pagePath": "pages/logs/logs",
-     "text": "简历"
+      "pagePath": "pages/index/index",
+     "text": "简介",
+     "iconPath": "/img/icon1.png",
+    "selectedIconPath": "/img/icon.png"
    },
      {
      "pagePath": "pages/users/users",
-     "text": "我的"
+     "text": "我的",
+      "iconPath": "/img/users.png",
+      "selectedIconPath": "/img/user1.png"
    }
    ]
  }

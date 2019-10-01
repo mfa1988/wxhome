@@ -3,7 +3,7 @@ const util = require('../../utils/util.js')
 
 Page({
   data: {
-    logs: []
+    background: ['../../img/log.jpeg','../../img/jms.jpg'],
   },
   onLoad: function () {
     this.setData({

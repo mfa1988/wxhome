@@ -1,4 +1,9 @@
 /**index.wxss**/
+.img{
+  width: 750rpx;
+  height: 500rpx;
+  position: relative;
+}
 .userinfo {
   display: flex;
   flex-direction: column;

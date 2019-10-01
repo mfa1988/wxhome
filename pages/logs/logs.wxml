@@ -1,21 +1,37 @@
 <!--logs.wxml-->
-
- <view>
- <image class="logs-img" src="../../img/log.jpeg"></image>
- </view>
- <view class="box">
-  <text>我是首页</text>
-  <text>我的简历</text>
-  <text>我的信息</text>
- </view>
- <view class="content">
-  <view>我是list</view>
-  <view>我是list1</view>
-  <view>我是list2</view>
-  <view>我是list3</view>
- </view>
- <view class="fexd-list">
-  <view>我的电话:18945414144</view>
-  <view>我的简历:点击进入查看我的简历</view>
-  <view>我的邮箱:66853233@qq.com</view>
- </view>
+<view class="box">
+<view class="box-header">
+  <view id="swiper">
+    <swiper indicator-dots="{{indicatorDots}}" autoplay="true" interval="4000" duration='2000' circular='true'
+            indicator-color='#fff' indicator-active-color='rgb(75, 21, 202)' class="swiper-container">
+        <swiper-item wx:for="{{background}}" wx:key="*this" class="swiper-wrapper">
+          <view class="swiper-item">
+            <image class="img" src="{{item}}"></image>
+          </view>
+        </swiper-item>
+    </swiper>
+  </view>
+</view>
+<view class="box-content">
+  <view class="phone">
+    <view>
+    订餐电话手机: 13777777777
+    <view>
+      <button>拨打</button>
+    </view>  
+    </view>
+    <view>
+    订餐电话座机: 010-888888888
+    <view>
+      <button>拨打</button>
+    </view>  
+    </view>
+    <view>
+    餐厅地址: 朝阳区
+      <view>
+      <button>定位</button>
+    </view>  
+    </view>
+  </view>
+</view>
+</view>
