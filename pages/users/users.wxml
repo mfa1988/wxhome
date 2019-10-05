@@ -1,1 +1,14 @@
 <!--pages/users/users.wxml-->
+<view id="users-box">
+  <view class="header">
+    <image src="../../img/log.jpeg"></image>
+  </view>
+  <view class="content">
+    <view class="caidan">
+      <view><text>本店特色:</text>东北烧烤</view>
+      <view><text>本店特色:</text>东北涮肚</view>
+      <view><text>本店特色:</text>朝鲜拌菜</view>
+      <view><text>本店特色:</text>夺命佳凤</view>
+    </view>
+  </view>
+</view>
